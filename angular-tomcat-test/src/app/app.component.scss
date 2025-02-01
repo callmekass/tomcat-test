@@ -12,12 +12,18 @@ header {
 }
 nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  margin-bottom: 8px;
 }
 
 nav a {
+  background-color: #0b7db3;
+  padding: 4px 8px;
+  border-radius: 0.25rem;
   color: white;
   text-decoration: none;
+  margin: 0px 8px;
+  font-weight: 500;
 }
 
 nav a:hover {
@@ -27,4 +33,9 @@ nav a:hover {
 .page-body {
   display: flex;
   justify-content: center;
+}
+
+h1 {
+  margin: 8px;
+  padding: 0;
 }
