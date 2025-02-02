@@ -1,2 +1,13 @@
 <h2>Greeting</h2>
-<p>greeting</p>
+<hr />
+<p>
+  This page is used to test the fetching of data from the spring boot backend
+</p>
+<p><b>Greeting</b>: {{ greeting }}</p>
+
+<p>
+  Test the fetching of greeting from the spring boot backend by clicking the
+  button below and viewing the web console. You should see a log message with
+  the greeting.
+</p>
+<button (click)="fetchGreeting()">fetch greeting</button>
